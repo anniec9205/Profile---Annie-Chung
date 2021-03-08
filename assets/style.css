@@ -12,6 +12,8 @@ header h1 {
     align-items: center;
     font-size: 500%;
     color: #fff;
+    background-color: #13293d;
+    padding: 30px;
     margin: 4.25rem;
     text-align: center;
     }
@@ -19,12 +21,12 @@ header h1 {
 /* NAVIGATION */
 .nav {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-top: 2px solid #916a70;
-    padding: 3%;
+    border-top: 4px solid #916a70;
+    padding: 2%;
     }
 
 nav ul {
-    font-size: 125%;
+    font-size: 175%;
     display: flex;
     justify-content: space-between;
     text-decoration: none;
@@ -59,9 +61,10 @@ h2 {
     }
 
 article p {
-    font-size: 18px;
+    font-size: 45%;
     color: #443235;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
     }
 
 .float-left {
@@ -109,7 +112,7 @@ article p {
     }
 
 section p {
-    font-size: 18px;
+    font-size: 45%;
     color: #443235;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
@@ -131,8 +134,41 @@ section p {
     }
 
 /* Footer */
+footer {
+    display: flex;
+    justify-content: left;
+    padding: 2%;
+    background-color: #13293d;
+    color: #fff;
+    }
 
-  
+.contact-me {
+    padding: 30px;
+    font-family: 'toppan bunkyu midashi mincho', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 300%;
+    color: #ffffff;
+    text-decoration: underline;
+    }
+
+footer ul {
+    text-align: right;
+    margin-left: 52%;
+    }
+
+footer ul li{
+    font-size: 120%;
+    justify-content: left;
+    padding: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    }
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    }
+    
 @media screen and (max-width: 768px) {
   main,
   nav {
