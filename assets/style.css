@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    background: #e6ddde;
+    margin: 3.5rem;
+    } 
+
+    /* HEADER */
+header h1 {
+    font-family: 'toppan bunkyu midashi mincho', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    font-size: 500%;
+    color: #fff;
+    margin: 4.25rem;
+    text-align: center;
+    }
+
+    /* NAVIGATION */
+.nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-top: 2px solid #916a70;
+    padding: 3%;
+    }
+
+nav ul {
+    font-size: 125%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    }
+  
+nav a {
+    color: #443235;
+    font-weight: bold;
+    text-decoration: none;
+    }
+  
+nav a:hover {
+    color: white;
+    }
+
+     /* MAIN */
+main {
+    flex: 1 1 0;
+    max-width: 97%;
+    margin: 20px;
+    }
+
+.about-me, .work {
+    margin-bottom: 20px;
+    padding: 30px;
+    height: 200px;
+    font-family: 'toppan bunkyu midashi mincho', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 300%;
+    color: #ffffff;
+    }
+
+h2 {
+    padding: 3%;
+    text-decoration: underline;
+    }
+
+p {
+    font-size: 18px;
+    color: #443235;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.horiseon {
+    flex: 1;
+    background-color: var(--white);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+
+.card1 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: var(--border-radius);
+    padding: 5px;
+    flex: 0 0 300px;
+    transform: rotate(2deg);
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+    }
+
+.products {
+    flex: 1;
+    background-color: var(--white);
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    flex: 0 0 300px;
+    transform: rotate(8deg);
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+  }
+
+.content {
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* MAIN ARTICLES */
+
+.about-me img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
