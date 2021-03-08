@@ -6,7 +6,7 @@ body {
     margin: 3.5rem;
     } 
 
-    /* HEADER */
+/* HEADER */
 header h1 {
     font-family: 'toppan bunkyu midashi mincho', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: center;
@@ -16,7 +16,7 @@ header h1 {
     text-align: center;
     }
 
-    /* NAVIGATION */
+/* NAVIGATION */
 .nav {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-top: 2px solid #916a70;
@@ -40,17 +40,14 @@ nav a:hover {
     color: white;
     }
 
-     /* MAIN */
+/* MAIN */
 main {
-    flex: 1 1 0;
-    max-width: 97%;
-    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
     }
 
 .about-me, .work {
-    margin-bottom: 20px;
     padding: 30px;
-    height: 200px;
     font-family: 'toppan bunkyu midashi mincho', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 300%;
     color: #ffffff;
@@ -61,7 +58,7 @@ h2 {
     text-decoration: underline;
     }
 
-p {
+article p {
     font-size: 18px;
     color: #443235;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -75,7 +72,7 @@ p {
 .horiseon {
     flex: 1;
     background-color: var(--white);
-    padding: 10px;
+    padding: 1px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -85,23 +82,22 @@ p {
     border-style: solid;
     border-width: 1px;
     border-radius: var(--border-radius);
-    padding: 5px;
+    padding: 1px;
     flex: 0 0 300px;
-    transform: rotate(2deg);
     box-shadow: 10px 10px 5px #aaaaaa;
-    margin: 20px;
+    margin: 5px;
     }
 
-.products {
+.coding {
     flex: 1;
     background-color: var(--white);
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-  }
+    }
   
-  .card {
+.card2 {
     border-style: solid;
     border-width: 1px;
     border-radius: var(--border-radius);
@@ -110,25 +106,33 @@ p {
     transform: rotate(8deg);
     box-shadow: 10px 10px 5px #aaaaaa;
     margin: 20px;
-  }
+    }
+
+section p {
+    font-size: 18px;
+    color: #443235;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    }
 
 .content {
     width: 100%;
     display: inline-block;
     margin-left: 20px;
-}
+    }
 
-/* MAIN ARTICLES */
-
-.about-me img, .online-reputation-management img, .social-media-marketing img {
+.about-me img {
     max-height: 200px;
-}
+    }
+  
+.card2 img {
+    width: 100%;
+    height: 90%;
+    }
 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Footer */
 
+  
 @media screen and (max-width: 768px) {
   main,
   nav {
